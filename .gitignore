@@ -1,0 +1,63 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Environment files
+# -----------------------------
+.env
+*.env
+
+# -----------------------------
+# VSCode
+# -----------------------------
+.vscode/
+*.code-workspace
+
+# -----------------------------
+# Docker & local volumes
+# -----------------------------
+docker/logs/
+docker/minio/data/
+docker/minio/.minio.sys/
+docker/tmp/
+docker/pool.bin
+
+# Ignore all containers temp dirs
+**/tmp/
+
+# -----------------------------
+# Kafka Debezium temp
+# -----------------------------
+kafka-debezium/tmp/
+kafka-debezium/logs/
+
+# -----------------------------
+# Postgres local data
+# -----------------------------
+postgres/data/
+postgres/*.log
+
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# PyCharm / JetBrains
+# -----------------------------
+.idea/
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.log
